@@ -8,4 +8,4 @@ class Solution:
             res = max(res, price - lowest)
 
         return res 
-        
+         
