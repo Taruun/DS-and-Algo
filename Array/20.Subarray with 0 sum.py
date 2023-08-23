@@ -1,5 +1,4 @@
-def subArrayExists(self,arr,n):
-        
+def subArrayExists(self,arr,n):    
     currentSum = 0
     setForSum = set()
         
