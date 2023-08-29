@@ -3,7 +3,6 @@
 class Solution:
         
     def minSwap (self,arr, n, k) : 
-        #Complete the function
         count = 0
         for i in range(n):
             if arr[i] <= k:
@@ -15,7 +14,7 @@ class Solution:
                 bad += 1
             
         ans = bad 
-        j = count # to get window size
+        j = count # to get window size by 
         for i in range(n):
             # check if j is at position
             if j == n:
